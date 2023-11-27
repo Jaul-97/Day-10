@@ -7,6 +7,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
 
   return (
+    <div className='Box'>
     <BrowserRouter>
       <Routes>
         <Route path = '/' element={<Home/>}/>
@@ -15,6 +16,7 @@ function App() {
         
       </Routes>
     </BrowserRouter>
+    </div>
 
   );
 }
